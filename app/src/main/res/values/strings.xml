@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Loan App</string>
+    <string name="Input_Message">Input Message</string>
+    <string name="invite">Invite your friends and earn discounts for the first successful loan they pay back!</string>
+    <string name="link">(Link)</string>
+    <string name="generate_link">Generate Link</string>
+</resources>

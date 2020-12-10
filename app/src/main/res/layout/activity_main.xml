@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bacc"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight=".4"
+        android:background="#00d0d2">
+
+        <ImageView
+            android:layout_width="330dp"
+            android:layout_height="174dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/newmouth" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="10dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="130dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@color/colorAccent">
+
+        <TextView
+            android:layout_width="315dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="24dp"
+            android:textSize="17dp"
+            android:textStyle="italic"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="24dp"
+            android:text="@string/invite"
+            android:textColor="#000" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="15dp"
+            android:hint="@string/link"
+            android:gravity="center"
+            android:textColorHint="#00d0d2"
+            android:background="@drawable/edit_text_border"
+            />
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_text_border_octa"
+            android:text="@string/generate_link"
+            android:textColor="#ffff"
+            android:layout_marginStart="80dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+    </LinearLayout>
